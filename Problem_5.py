@@ -18,16 +18,16 @@ Modify the loop to skip a genre if it's not suitable for the light show, for ins
 '''
 
 #Task 1
-'''
+
 genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
 counter = 1
 for genre in genres:
     print(f"The track number is {counter} which means the genre is {genre}!")
     counter += 1
-'''
+
 
 #Task 2
-'''
+
 genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
 counter = 0
 while counter != len(genres):
@@ -37,7 +37,7 @@ while counter != len(genres):
     if genres[counter] == "Classical":
         print("Stop at this!")
         break
-'''
+
 #Task 3
 
 genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
